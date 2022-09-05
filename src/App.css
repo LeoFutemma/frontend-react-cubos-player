@@ -1,0 +1,152 @@
+.container {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #0C0505 0%, #3A3535 47.92%, #5E5858 100%);
+}
+
+header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+  padding: 32px;
+  border-bottom: 1px solid #6A6363;
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #6A6363;
+}
+
+.header__login span {
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-left: 8px;
+}
+
+main {
+  box-sizing: border-box;
+  padding: 90px 300px 79px 300px;
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #6A6363;
+}
+
+.card {
+  font-family: 'Rubik';
+  max-width: 260px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.card:hover {
+  transform: scale(1.025);
+}
+
+img {
+  width: 260px;
+  height: 260px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 8px 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #CCC3C3;
+  margin: 0;
+}
+
+footer {
+  box-sizing: border-box;
+  height: 132px;
+  background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0) 100%);
+  border-top: 2px solid rgba(0, 0, 0, 0.21);
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 24px 0;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.infos {
+  position: absolute;
+  left: 32px
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 8px 0;
+}
+
+.infos span {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.player button {
+  border: none;
+}
+
+.player__buttons {
+  display: flex;
+  align-items: center;
+  margin: 0 0 8px 0;
+  height: 64px;
+}
+
+.player img {
+  cursor: pointer;
+}
+
+.player img:hover {
+  transform: scale(1.15);
+}
+
+.button:first-child {
+  margin-right: 40px;
+}
+
+
+.button {
+  width: 48px;
+  height: 48px;
+}
+
+.main-button {
+  width: 64px;
+  height: 64px;
+  margin: 0 40px 0 40px;
+}
